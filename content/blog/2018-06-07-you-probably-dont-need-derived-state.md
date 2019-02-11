@@ -202,7 +202,7 @@ class EmailInput extends Component {
 
 The parent form component could then [use a `ref` to call this method](/docs/glossary.html#refs). ([Click here to see a demo of this pattern.](https://codesandbox.io/s/l70krvpykl))
 
-Refs can be useful in certain cases like this one, but generally we recommend you use them sparingly. Even in the demo, this imperative method is nonideal because two renders will occur instead of one.
+Refs can be useful in certain cases like this one, but generally we recommend you use them sparingly. Even in the demo, this imperative method is nonideal because two renders will occur instead of one(because we use ref in callback of setState metode).
 
 -----
 
